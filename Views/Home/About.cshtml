@@ -1,0 +1,38 @@
+﻿@using Helobis.Hr.Web.Site.Resources
+
+@{
+    Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+
+@Html.Partial("_PartialCarousel")
+
+<section class="container" id="about-section">
+    <div class="inner">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>@ResLinks.About</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 service-content text-justify">
+                <h3>@ResAbout.AgnesName</h3>
+                <p>@ResAbout.AgnesPart1</p>
+                <p>@ResAbout.AgnesPart2</p>
+                <p>@ResAbout.AgnesPart3</p>
+                <p>@ResAbout.AgnesPart4</p>
+                <p>@ResAbout.AgnesPart5</p>
+                <p>@ResAbout.AgnesPart6</p>
+                <p>@ResAbout.AgnesPart7</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 service-content text-justify">
+                <h3>@ResAbout.LukaszName</h3>
+                <p>@ResAbout.LukaszPart1</p>
+                <p>@ResAbout.LukaszPart2</p>
+                <p>@ResAbout.LukaszPart3</p>
+                <p>@ResAbout.LukaszPart4</p>
+            </div>
+        </div>
+    </div>
+</section>

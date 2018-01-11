@@ -1,0 +1,50 @@
+﻿@using Helobis.Hr.Web.Site.Resources
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name=" description" content="Helobis - Rozwój i Szkolenia" />
+    <meta name="keywords" content="Warszawa, Human Resources, Consulting, Szkolenia, Coaching" />
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <title>@ResCorporate.PageTitle</title>
+    <link href="~/content/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="~/content/font-awesome.css" rel="stylesheet" />
+    <link href="~/content/app/theme.css" rel="stylesheet" />
+    <link href="~/content/app/partials.css" rel="stylesheet" />
+    <script src="~/scripts/modernizr-2.7.2.js"></script>
+
+</head>
+<body>
+    @{
+        if (Context.Request.Cookies["_dddn_privacy_div"] == null)
+        {
+            Html.RenderPartial("_PartialPrivacyDiv");
+        }
+        
+    }
+    @Html.Partial("_PartialTopMenu")
+
+    <div class="scrolltop">
+        <a href="#topmenu-section"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+    </div>
+
+    @Html.Partial("_PartialHeader")
+
+    @RenderBody()
+
+    @Html.Partial("_PartialFooter")
+    <script src="~/scripts/jquery-1.9.0.js"></script>
+    <script src="~/scripts/jquery.cookie.js"></script>
+    <script src="~/scripts/bootstrap.js"></script>
+    <script src="~/scripts/app/app.js"></script>
+    @RenderSection("Scripts", required: false)
+    @Html.Partial("_PartialAnalytics")
+</body>
+
+</html>

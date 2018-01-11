@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvantagesText1" xml:space="preserve">
+    <value>Dzięki naszym analizom i oprogramowaniu, zapewnimy klientom oczekiwane narzędzia pomocne w efektywnym zarządzaniu firmą. Zapewnimy szybką i skuteczną informację zarządczą do podejmowania kluczowych decyzji w firmie. Co z kolei bezpośrednio przekłada się na większy zysk firmy.</value>
+  </data>
+  <data name="AdvantagesText2" xml:space="preserve">
+    <value>Rozwiązania są zawsze spersonalizowane do potrzeb danego klienta. Z czujnym wsparciem i koniecznym zaangażowanie w tych obszarach, które często lekceważy albo zaniedbuje konkurencja: a są to głównie pilotaż, potem wdrożenie oraz uaktualnianie danych po uwagach zgłaszanych przez odbiorców.</value>
+  </data>
+  <data name="BenefitsText1" xml:space="preserve">
+    <value>Oszczędność czasu i innych zasobów klienta oraz w średniej i długiej perspektywie oszczędność budżetu firmy.</value>
+  </data>
+  <data name="CharacteristicsText1" xml:space="preserve">
+    <value>Analizy Business Intelligence polegają na przekazaniu know-how (jak dokonywać analiz) i wizualizacji wszelkiego rodzaju mierników efektywności dotyczących danego obszaru działania biznesowego, mając na celu śledzenie (monitorowanie) zakładanego postępu rozwoju i zwiększenia efektywności. Analizy mają na celu implementację w firmach wczesnego systemu ostrzegania, jeśli założone wskaźniki nie są osiągane. Zawsze służą zbieraniu i analizie danych oraz wyciąganiu wniosków w postaci tzw. informacji zarządczej.</value>
+  </data>
+  <data name="CharacteristicsText2" xml:space="preserve">
+    <value>Business Intelligence to także platformy analityczno-raportowe, hurtownie danych i procesy integracji danych, systemy planowania i budżetowania oraz systemy wspierające zarządzanie efektywnością przedsiębiorstwa (Performance Management), rozwiązania wspierające zarządzanie oparte o Balanced Scorecard i zarządzanie przez cele.</value>
+  </data>
+  <data name="CharacteristicsText3" xml:space="preserve">
+    <value>Oprogramowanie dla firm jest zawsze szyte na miarę. Jest ono pomocne w procesie pracy doradczej i konsultingowej, jako sposób rozwiązania danego problemu biznesowego. Jest to usługa wpisana w dany proces biznesowy, poprzedzona pilotażem, uwzględniająca wymogi biznesowe i wymogi funkcjonalne klientów.</value>
+  </data>
+  <data name="CharacteristicsText4" xml:space="preserve">
+    <value>Proces obsługi klienta opiera się na rozpoznaniu i analizie potrzeb, wdrożeniu rozwiązania i opiece serwisowej.</value>
+  </data>
+  <data name="Example1Header" xml:space="preserve">
+    <value>Przykłady analiz biznesowych</value>
+  </data>
+  <data name="Example1Item1" xml:space="preserve">
+    <value>Analiza wyników sprzedaży</value>
+  </data>
+  <data name="Example1Item2" xml:space="preserve">
+    <value>Analiza z działań rozwojowych prowadzonych przez dział HR</value>
+  </data>
+  <data name="Example1Item3" xml:space="preserve">
+    <value>Analiza rodzaju i częstotliwości feedback’u klientów</value>
+  </data>
+  <data name="Example1Item4" xml:space="preserve">
+    <value>Analiza sprawności działania oprogramowania firmowego</value>
+  </data>
+  <data name="Example2Header" xml:space="preserve">
+    <value>Przykłady aplikacji biznesowych</value>
+  </data>
+  <data name="Example2Item1" xml:space="preserve">
+    <value>Aplikacja do przeprowadzania oceny pracowniczej w firmie</value>
+  </data>
+  <data name="Example2Item2" xml:space="preserve">
+    <value>Aplikacja do zarządzania kompetencjami w organizacji</value>
+  </data>
+  <data name="Example2Item3" xml:space="preserve">
+    <value>Aplikacja do zarządzania celami premiowymi w firmie</value>
+  </data>
+  <data name="Example2Item4" xml:space="preserve">
+    <value>Aplikacja do planowania rozwoju pracowników, zarządzania ich szkoleniami</value>
+  </data>
+  <data name="Example2Item5" xml:space="preserve">
+    <value>Aplikacja do zarządzania sukcesją i planem następstw w firmie</value>
+  </data>
+  <data name="HeaderPart1" xml:space="preserve">
+    <value>Business Intelligence&lt;br /&gt;</value>
+  </data>
+  <data name="HeaderPart2" xml:space="preserve">
+    <value />
+  </data>
+</root>

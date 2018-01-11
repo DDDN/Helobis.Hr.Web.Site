@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Example1Header" xml:space="preserve">
+    <value>Personal / Life Coaching</value>
+  </data>
+  <data name="Example1Item1" xml:space="preserve">
+    <value>Planowanie życia</value>
+  </data>
+  <data name="Example1Item10" xml:space="preserve">
+    <value>Rozwiązywanie problemów z dziećmi, nastolatkami i studentami</value>
+  </data>
+  <data name="Example1Item2" xml:space="preserve">
+    <value>Wypracowywanie wizji życia</value>
+  </data>
+  <data name="Example1Item3" xml:space="preserve">
+    <value>Relacje z innymi ludźmi</value>
+  </data>
+  <data name="Example1Item4" xml:space="preserve">
+    <value>Życie duchowe</value>
+  </data>
+  <data name="Example1Item5" xml:space="preserve">
+    <value>Związki (dla osób samotnych, par i rodzin)</value>
+  </data>
+  <data name="Example1Item6" xml:space="preserve">
+    <value>Dbanie o zdrowie i urodę</value>
+  </data>
+  <data name="Example1Item7" xml:space="preserve">
+    <value>Rozwijanie kreatywności</value>
+  </data>
+  <data name="Example1Item8" xml:space="preserve">
+    <value>Uzyskiwanie wolności finansowej</value>
+  </data>
+  <data name="Example1Item9" xml:space="preserve">
+    <value>Lepsza organizacja życia</value>
+  </data>
+  <data name="Example1Text1" xml:space="preserve">
+    <value>Pomoc w rozwiązywaniu problemów związanych z życiem osobistym i relacjami, poprzez konsultacje indywidualne. Konsultacja indywidualne - to spotkanie dla tych, którzy mają konkretne problemy i chcą je rozwiązać. To spotkanie dla tych, dla których rozmowa w cztery oczy ma kluczowe znaczenie, którzy w bezpiecznych warunkach chcą uzyskać wsparcie i znaleźć rozwiązanie dla swojego problemu (np. w zakresie: radzenia sobie ze zmianą, radzenia sobie z kryzysem w życiu, trudności emocjonalnych, zaburzonego obrazu postrzegania siebie, wspomagania osobistego rozwoju, problemów w relacjach zawodowych i prywatnych). Przykładowe obszary pracy.</value>
+  </data>
+  <data name="Example2Header" xml:space="preserve">
+    <value>Career / Transition Coaching</value>
+  </data>
+  <data name="Example2Item1" xml:space="preserve">
+    <value>Osoby zmieniającej ścieżkę kariery</value>
+  </data>
+  <data name="Example2Item2" xml:space="preserve">
+    <value>Osoby stającej przed decyzjami zawodowymi</value>
+  </data>
+  <data name="Example2Item3" xml:space="preserve">
+    <value>Osoby pracującej w dużej firmie/korporacji lub zastanawiającej się nad podjęciem tam pracy</value>
+  </data>
+  <data name="Example2Item4" xml:space="preserve">
+    <value>Osoby borykającej się z decyzją o odejściu z dużej firmy/korporacji</value>
+  </data>
+  <data name="Example2Text1" xml:space="preserve">
+    <value>Pomoc dotycząca rozwoju zawodowego, kolejnych etapów na drodze zawodowej. Np. dla:</value>
+  </data>
+  <data name="Example3Header" xml:space="preserve">
+    <value>Small Business Coaching</value>
+  </data>
+  <data name="Example3Item1" xml:space="preserve">
+    <value>Właściciele i menedżerowie w małych firmach</value>
+  </data>
+  <data name="Example3Item2" xml:space="preserve">
+    <value>Firmy w okresie „rozruchowym”</value>
+  </data>
+  <data name="Example3Item3" xml:space="preserve">
+    <value>Osoby prowadzące samodzielną działalność gospodarczą</value>
+  </data>
+  <data name="Example3Item4" xml:space="preserve">
+    <value>Ludzie prowadzący działalność gospodarczą w domu</value>
+  </data>
+  <data name="Example3Item5" xml:space="preserve">
+    <value>Przedstawiciele kadry zarządzającej chcący odejść z dużych korporacji i założyć własną działalność</value>
+  </data>
+  <data name="Example3Text1" xml:space="preserve">
+    <value>Pomoc dotycząca prowadzenia własnej działalności gospodarczej i małych firm. Przykładowi odbiorcy usługi:</value>
+  </data>
+  <data name="Example4Header" xml:space="preserve">
+    <value>Executive - Corporate Coaching</value>
+  </data>
+  <data name="Example4Item1" xml:space="preserve">
+    <value>Działy kadrowe zainteresowane wykorzystaniem coacha spoza organizacji</value>
+  </data>
+  <data name="Example4Item2" xml:space="preserve">
+    <value>Wyższa  kadra zarządzająca, menedżerowie i specjaliści, którzy chcieliby skorzystać z usług coacha</value>
+  </data>
+  <data name="Example4Item3" xml:space="preserve">
+    <value>Firmy chcące wprowadzić coaching, jako sposób rozwoju ludzi bądź kulturę coachingową w pracy menedżera / coaching'owy styl pracy</value>
+  </data>
+  <data name="Example4Item4" xml:space="preserve">
+    <value>Firmy, które pragną przeszkolić swoich menedżerów z zakresu coaching'u</value>
+  </data>
+  <data name="Example4Item5" xml:space="preserve">
+    <value>W celu wyeliminowania lub pomocy w przypadku wypalenia zawodowego</value>
+  </data>
+  <data name="Example4Item6" xml:space="preserve">
+    <value>Firmy zainteresowane warsztatami z zakresu coaching'u</value>
+  </data>
+  <data name="Example4Item7" xml:space="preserve">
+    <value>Firmy chcące wspomóc pracowników coaching'iem w jednym z poniższych obszarów: planowanie strategiczne, proces re-engineeringu, budowanie i rozwój zespołów, rozwój w wyniku rozmowy/oceny kompetencyjnej</value>
+  </data>
+  <data name="Example4Text1" xml:space="preserve">
+    <value>Praca z kadrą zarządzającą przedsiębiorstw. Nastawiona na rozwój biznesu, rozumianego, jako przedsiębiorstwo, na wzrost efektywności zarządzającego. Również pomoc w rozwiązywaniu problemów związanych z pracą zawodową (np. w zakresie: trudności z przełożonym, rozwoju zawodowego, trudności w realizacji celów biznesowych, problemów w zakresie komunikacji z otoczeniem). Również pomoc podczas wprowadzenia pracownika do nowej roli zawodowej (np. w przypadku awansu wewnętrznego ze specjalisty na stanowisko menedżera np. ds. personalnych, lub podczas pierwszych trzech miesięcy pracy w nowej firmie). Potencjalni odbiorcy:</value>
+  </data>
+  <data name="Example5Header" xml:space="preserve">
+    <value>Mentoring HR</value>
+  </data>
+  <data name="Example5Text1" xml:space="preserve">
+    <value>Mentoring HR (uczenie się przez doświadczenie i dawanie przykładu) w budowaniu autorytetu menedżera HR oraz budowaniu i rozwoju profesjonalnego zespołu mu podległego. Lub dla specjalisty HR – budowanie jego profesjonalizmu zawodowego w obszarze HR. Polecamy osobom rozpoczynającym pracę, jako szef personalny. Pomagamy im rozwijać wiedzę, umiejętności i kompetencje metodą uczenia się przez doświadczenie. Dajemy unikalną możliwość wykorzystania eksperckiej wiedzy i doświadczeń mentora do realizacji stojących przed tymi osobami celów. Wspólnie wypracowując nowatorskie rozwiązania, bazujące na najlepszych praktykach i dostosowane do potrzeb organizacji, dzielimy się swoją wiedzą, umiejętnościami i doświadczeniem dla zapewnienia szybkiego i skutecznego rozwoju naszego podopiecznego.</value>
+  </data>
+  <data name="Example5Text2" xml:space="preserve">
+    <value>Proces mentoring’owy może być poprzedzony shadowing’iem (jednodniową, kilkugodzinną obserwacją w miejscu pracy), zakończoną udzieleniem informacji zwrotnej (skoncentrowanej na zaobserwowanych faktach).</value>
+  </data>
+</root>

@@ -1,0 +1,39 @@
+﻿@using Helobis.Hr.Web.Site.Resources
+
+<header class="navbar navbar-default" role="navigation" id="header-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="logo pull-left">
+                    <a href="@Url.Action("Index", "Home")">@ResCorporate.PageTitle</a>
+                </h1>
+                <button class="navbar-toggle pull-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <h4>@ResLinks.Menu</h4>
+                </button>
+            </div>
+        </div>
+    </div>
+    <nav class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-collapse collapse navbar-left" id="main-navigation" data-toggle="collapse" data-target=".nav-collapse">
+                    <ul class="nav navbar-nav" id="main-menu">
+                        <li><a href="@Url.Action("Consulting", "Service")">@ResLinks.Consulting</a></li>
+                        <li><a href="@Url.Action("Coaching", "Service")">@ResLinks.Coaching</a></li>
+                        <li><a href="@Url.Action("Training", "Service")">@ResLinks.Training</a></li>
+                        <li><a href="@Url.Action("Tests", "Service")">@ResLinks.Tests</a></li>
+                        <li><a href="@Url.Action("Rules", "Service")">@ResLinks.Rules</a></li>
+                        <li><a href="@Url.Action("Outsourcing", "Service")">@ResLinks.Outsourcing</a></li>
+                        <li><a href="@Url.Action("Outplacement", "Service")">@ResLinks.Outplacement</a></li>
+                        @*<li><a href="@Url.Action("Languages", "Service")">@ResLinks.Languages</a></li>*@
+                        <li><a href="@Url.Action("BISoft", "Service")">@ResLinks.BISoft</a></li>
+                        <li class="mobile-only"><a href="@Url.Action("About", "Home")">@ResLinks.About</a></li>
+                        <li class="mobile-only"><a href="@Url.Action("Contact", "Home")">@ResLinks.Contact</a></li>
+                        <li class="mobile-only"><a href="@Url.Action("Privacy", "Home")">@ResLinks.PrivacyPolicy</a></li>
+                        <li class="mobile-only"><a href="@Url.Action("Index", "Home")">@ResLinks.Start</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

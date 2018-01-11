@@ -1,0 +1,51 @@
+﻿@using Helobis.Hr.Web.Site.Resources
+
+@{
+    Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+
+@Html.Partial("_PartialCarousel")
+
+<section class="container service-section" id="tests-section">
+    <div class="inner">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>@ResTests.HeaderPart1<br />@ResTests.HeaderPart2</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 service-content text-justify">
+                <h4>@ResHeaders.Characteristic</h4>
+                <p>@ResTests.CharacteristicsText1</p>
+                <p>@ResTests.CharacteristicsText2</p>
+                <p>@ResTests.CharacteristicsText3</p>
+                <p>@ResTests.CharacteristicsText4</p>
+                <p>@ResTests.CharacteristicsText5</p>
+                <h4>@ResHeaders.Advantages</h4>
+                <p>
+                    @ResTests.AdvantagesText1
+                    <ul class="blank-list">
+                        <li>@ResTests.Usage1Item1</li>
+                        <li>@ResTests.Usage1Item2</li>
+                        <li>@ResTests.Usage1Item3</li>
+                        <li>@ResTests.Usage1Item4</li>
+                        <li>@ResTests.Usage1Item5</li>
+                    </ul>
+                </p>
+                <p>
+                    @ResTests.AdvantagesText2
+                    <ul class="blank-list">
+                        <li>@ResTests.Advantages1Item1</li>
+                        <li>@ResTests.Advantages1Item2</li>
+                        <li>@ResTests.Advantages1Item3</li>
+                        <li>@ResTests.Advantages1Item4</li>
+                    </ul>
+                </p>
+                <h4>@ResHeaders.Benefits</h4>
+                <p>
+                    @ResTests.BenefitsText1
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

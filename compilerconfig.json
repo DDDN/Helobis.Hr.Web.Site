@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "wwwroot/Content/bootstrap/bootstrap.css",
+    "inputFile": "wwwroot/Content/bootstrap/bootstrap.less"
+  },
+  {
+    "outputFile": "wwwroot/Content/app/variables.css",
+    "inputFile": "wwwroot/Content/app/variables.less"
+  },
+  {
+    "outputFile": "wwwroot/Content/app/theme.css",
+    "inputFile": "wwwroot/Content/app/theme.less"
+  },
+  {
+    "outputFile": "wwwroot/Content/app/partials.css",
+    "inputFile": "wwwroot/Content/app/partials.less"
+  }
+]

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvantagesText1" xml:space="preserve">
+    <value>Dzięki szkoleniom zapewnimy odbiorcom biznesowym i indywidualnym, praktyczną wiedzę, konkretne umiejętności, pożądane przez zleceniodawców zachowania i postawy w określonych obszarach. Szkolenia są doszywane do potrzeb klienta, po dokładnej analizie jego potrzeb. Szkolenia są nastawione na praktyczną naukę (mają formę praktycznego angażującego uczestników warsztatu), która ma swój indywidualny dla każdego uczestnika ciąg dalszy, w postaci zindywidualizowanego planu działań rozwojowych. Szkolenia zawsze stanowią element procesu rozwoju. Proces jest mierzony pod kątem zadowolenia klienta, nabycia nowej wiedzy i umiejętności, zmiany zachowań oraz efektywności rozumianej, jako zwrot z inwestycji, przeliczony na ROI (return on investment) i rozliczony - jeśli to możliwe - w formie success fee (udział w zyskach firmy).</value>
+  </data>
+  <data name="BenefitsText2" xml:space="preserve">
+    <value>Klienci indywidualni zdobywają nową jakość w życiu osobistym i znajdują odpowiedzi na swoje potrzeby. Klienci biznesowi zrealizują efektywniej swoje zadania zawodowe (najczęściej określone w formie celów premiowych), za które otrzymują określoną premię. Oraz zrealizują swoje cele biznesowe, bezpośrednio przekładające się na mierniki efektywności, takie jak rentowność, cash flow (płynność finansowa), zysk.</value>
+  </data>
+  <data name="CharacteristicsText1" xml:space="preserve">
+    <value>Nasze produkty szkoleniowe dedykowane są zarówno do osób fizycznych (szkolenia otwarte), jak i do klienta biznesowego (szkolenia otwarte i zamknięte). Szkolenia otwarte to szkolenia „gotowe” dla osób fizycznych (klientów indywidualnych). Szkolenia „zamknięte” to szkolenia dla firm, które za każdym razem są wstępnie zdefiniowane, ale zawsze są „doszywane” do konkretnych potrzeb klienta biznesowego, jego oczekiwań i celów, specyfiki grupy. Ze zdecydowanym akcentem położonym na wbudowanie szkolenia w proces rozwoju, którego zawartość merytoryczna, jakość i cena stanowi zdecydowaną przewagę nad konkurencją. Całość procesu zakończona jest pomiarem wpływu osiągniętych celów na wyniki firmy.</value>
+  </data>
+  <data name="CharacteristicsText2" xml:space="preserve">
+    <value>Metody, które stosujemy podczas pracy szkoleniowej to: ćwiczenia indywidualne i zespołowe, odgrywanie ról, prezentacje, inspiracja (teoria) poparta licznymi przykładami z życia w celu minimalizacji teorii, jako takiej, dyskusje prowadzone przez trenera w oparciu o doświadczenia i potrzeby uczestników, interakcje, informacja zwrotna udzielana na bieżąco, praca z kamerą praca na autentycznych dokumentach i przypadkach (tzw. Case Studies), zadania wdrożeniowe i indywidualne plany działania po szkoleniu.</value>
+  </data>
+  <data name="Example1Haeder" xml:space="preserve">
+    <value>Akademia Młodego Szefa</value>
+  </data>
+  <data name="Example1Item1" xml:space="preserve">
+    <value>ABC Menedżera (4 podstawowe funkcje zarządzania)</value>
+  </data>
+  <data name="Example1Item2" xml:space="preserve">
+    <value>Komunikacja z współpracownikami, podwładnymi i przełożonym</value>
+  </data>
+  <data name="Example1Item3" xml:space="preserve">
+    <value>Budowa i zarządzanie zespołem</value>
+  </data>
+  <data name="Example1Item4" xml:space="preserve">
+    <value>Efektywne planowanie i organizowanie pracy zespołu i własnej</value>
+  </data>
+  <data name="Example1Item5" xml:space="preserve">
+    <value>Budowanie celów zespołu i motywujące rozliczanie ich realizacji</value>
+  </data>
+  <data name="Example2Haeder" xml:space="preserve">
+    <value>Akademia Doświadczonego Szefa</value>
+  </data>
+  <data name="Example2Item1" xml:space="preserve">
+    <value>Budowanie autorytetu szefa</value>
+  </data>
+  <data name="Example2Item2" xml:space="preserve">
+    <value>Zarządzanie ludźmi, czyli jak znajdować, zatrudniać, utrzymywać, wynagradzać i rozwijać najlepszych pracowników. I zwalniać najgorszych</value>
+  </data>
+  <data name="Example2Item3" xml:space="preserve">
+    <value>O motywacji, czyli jak wyzwalać zaangażowanie innych</value>
+  </data>
+  <data name="Example2Item4" xml:space="preserve">
+    <value>Szef mentorem i coach'em</value>
+  </data>
+  <data name="Example2Item5" xml:space="preserve">
+    <value>Zarządzanie konfliktem, czyli jak radzić sobie z trudnym pracownikiem, klientem, sprzecznymi interesami zespołów</value>
+  </data>
+  <data name="Example3Haeder" xml:space="preserve">
+    <value>Akademia Szefa Sprzedaży</value>
+  </data>
+  <data name="Example3Item1" xml:space="preserve">
+    <value>Idę na spotkanie sprzedażowe a tego nie da się sprzedać, czyli o sztuce komunikacji i przekonywania i sile wewnętrznych przekonań</value>
+  </data>
+  <data name="Example3Item2" xml:space="preserve">
+    <value>Jak oni zrealizują ten mój plan sprzedażowy, czyli efektywne zarządzanie zespołem sprzedażowym</value>
+  </data>
+  <data name="Example3Item3" xml:space="preserve">
+    <value>Żeby się chciało chcieć, czyli o motywowaniu sprzedawców</value>
+  </data>
+  <data name="Example3Item4" xml:space="preserve">
+    <value>Jak to robi najlepszy sprzedawca, czyli jak zarządzać dzieleniem się wiedzą w zespole sprzedażowym</value>
+  </data>
+  <data name="Example3Item5" xml:space="preserve">
+    <value>Train the Trainers, czyli jak uczyć innych efektywnego sprzedawania</value>
+  </data>
+  <data name="Example4Haeder" xml:space="preserve">
+    <value>Akademia Efektywnego HR-owca</value>
+  </data>
+  <data name="Example4Item1" xml:space="preserve">
+    <value>HR w służbie biznesu, czyli o roli HR Biznes Partnera w firmie</value>
+  </data>
+  <data name="Example4Item2" xml:space="preserve">
+    <value>Zarządzanie rozwojem i szkoleniami w organizacji, czyli jak realizować cele biznesowe i zarządzać budżetem. Cztery poziomy pomiaru efektywności działań rozwojowych</value>
+  </data>
+  <data name="Example4Item3" xml:space="preserve">
+    <value>Biblioteka produktów rozwojowych, czyli jak wdrożyć bez kosztowy rozwój i zarządzanie wiedzą w firmie</value>
+  </data>
+  <data name="Example4Item4" xml:space="preserve">
+    <value>Efektywne rozmowy HR-owca cz. 1 - czyli jak rozmawiać z biznesem, executive HR, zespołem HR oraz z podwykonawcami</value>
+  </data>
+  <data name="Example4Item5" xml:space="preserve">
+    <value>Efektywne rozmowy HR-owca cz. 2 - czyli jak prowadzić rozmowy rekrutacyjne, rozwojowe i exit interview</value>
+  </data>
+  <data name="Example5Haeder" xml:space="preserve">
+    <value>Pozostałe szkolenia</value>
+  </data>
+  <data name="Example5Item1" xml:space="preserve">
+    <value>Jak dostać tę robotę, czyli kompleksowe przygotowanie do rozmowy o pracę (w tym stylizacja i wizaż, analiza swoich mocnych i słabych stron, symulacje możliwych rozmów, opracowanie profesjonalnego cv i listu motywacyjnego) – praca z kamerą</value>
+  </data>
+  <data name="Example5Item2" xml:space="preserve">
+    <value>Jak cię widzą, tak cię piszą, czyli autoprezentacja i wystąpienia publiczne – praca z kamerą</value>
+  </data>
+  <data name="Example5Item3" xml:space="preserve">
+    <value>Zarządzanie stresem, czyli nie taki diabeł straszny jak go malują</value>
+  </data>
+  <data name="Example5Item4" xml:space="preserve">
+    <value>Jak zarządzić tym, co nieuniknione, czyli radzenie sobie z kryzysami w życiu</value>
+  </data>
+  <data name="Example5Item5" xml:space="preserve">
+    <value>Efektywność osobista, czyli z pustego i Salomon nie naleje - o zarządzaniu sobą w czasie</value>
+  </data>
+  <data name="Example5Item6" xml:space="preserve">
+    <value>Oraz inne szkolenia dostosowane do potrzeb klienta</value>
+  </data>
+  <data name="ExamplesBoxHeder" xml:space="preserve">
+    <value>Obszary objęte szkoleniami</value>
+  </data>
+  <data name="ExamplesBoxItem1" xml:space="preserve">
+    <value>zarządzania biznesem: dla szefów, kierowników, menedżerów, liderów, właścicieli jednoosobowych bądź małych/średnich/dużych przedsiębiorstw</value>
+  </data>
+  <data name="ExamplesBoxItem2" xml:space="preserve">
+    <value>zarządzanie sprzedażą: dla sprzedawców, handlowców, przedstawicieli handlowych, szefów regionu, dyrektorów sprzedaży</value>
+  </data>
+  <data name="ExamplesBoxItem3" xml:space="preserve">
+    <value>zarządzanie obszarami merytorycznymi HR: dla specjalistów, doradców HR, ekspertów, szefów projektów, kierowników</value>
+  </data>
+  <data name="ExamplesBoxItem4" xml:space="preserve">
+    <value>rozwój osobisty: dla każdego zainteresowanego własnym rozwojem</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Szkolenia otwarte i zamknięte</value>
+  </data>
+</root>

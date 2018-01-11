@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CookiesHeader" xml:space="preserve">
+    <value>2. Informacje o plikach cookies</value>
+  </data>
+  <data name="CookiesItem1" xml:space="preserve">
+    <value>2.1 Serwis korzysta z plików cookies.</value>
+  </data>
+  <data name="CookiesItem2" xml:space="preserve">
+    <value>2.2 Pliki cookies (tzw. „ciasteczka”) stanowią dane informatyczne, w szczególności pliki tekstowe, które przechowywane są w urządzeniu końcowym Użytkownika Serwisu i przeznaczone są do korzystania ze stron internetowych Serwisu. Cookies zazwyczaj zawierają nazwę podaną przez stronę internetową, z której pochodzą, czas przechowywania ich na urządzeniu końcowym oraz ich przypisaną wartość.</value>
+  </data>
+  <data name="CookiesItem3" xml:space="preserve">
+    <value>2.3 W ramach Serwisu stosowane są dwa zasadnicze rodzaje plików cookies: „sesyjne” (session cookies) oraz „stałe” (persistent cookies). Cookies „sesyjne” są plikami tymczasowymi, które przechowywane są w urządzeniu końcowym Użytkownika do czasu wylogowania, opuszczenia strony internetowej lub wyłączenia oprogramowania (przeglądarki internetowej). „Stałe” pliki cookies przechowywane są w urządzeniu końcowym Użytkownika przez czas określony w parametrach plików cookies lub do czasu ich usunięcia przez Użytkownika.</value>
+  </data>
+  <data name="CookiesItem4" xml:space="preserve">
+    <value>2.4 W ramach Serwisu stosowane mogą być cookis służące do dostosowania zawartości stron internetowych Serwisu do preferencji Użytkownika. Do optymalizacji korzystania ze stron internetowych Serwisu oraz realizacji procesów niezbędnych dla pełnej funkcjonalności Serwisu. Do zapamiętania ustawień wybranych przez Użytkownika i personalizacji interfejsu Użytkownika, np. w zakresie wybranego języka lub regionu, z którego pochodzi Użytkownik. Do utrzymania sesji Użytkownika Serwisu, dzięki której Użytkownik nie musi na każdej podstronie Serwisu ponownie wpisywać danych związanych z dokonaną przez siebie konfiguracją Serwisu. Podmiotem zamieszczającym na urządzeniu końcowym Użytkownika tego rodzaju pliki cookies oraz uzyskującym do nich dostęp jest Operator Serwisu.</value>
+  </data>
+  <data name="CookiesItem5" xml:space="preserve">
+    <value>2.5 W ramach Serwisu stosowane mogą być cookis służące do zbierania ogólnych i anonimowych danych statycznych za pośrednictwem narzędzi analitycznych Google Analytics, które pomagają zrozumieć, w jaki sposób Użytkownicy Serwisu korzystają ze stron internetowych Serwisu, co umożliwia ulepszanie ich struktury i zawartości. Podmiotem zamieszczającym na urządzeniu końcowym Użytkownika tego rodzaju pliki cookies oraz uzyskującym do nich dostęp jest Google Inc z siedzibą w USA.</value>
+  </data>
+  <data name="CookiesItem6" xml:space="preserve">
+    <value>2.6 Oprogramowanie do przeglądania stron internetowych (przeglądarka internetowa) zazwyczaj domyślnie dopuszcza przechowywanie plików cookies w urządzeniu końcowym Użytkownika. Użytkownicy Serwisu mogą dokonać zmiany ustawień w tym zakresie. Przeglądarka internetowa umożliwia usunięcie plików cookies. Możliwe jest także automatyczne blokowanie plików cookies Szczegółowe informacje na ten temat zawiera pomoc lub dokumentacja przeglądarki internetowej.</value>
+  </data>
+  <data name="CookiesItem7" xml:space="preserve">
+    <value>2.7 Operator Serwisu informuje, że ograniczenie stosowania plików cookies może wpłynąć na niektóre funkcjonalności dostępne na stronach internetowych Serwisu.</value>
+  </data>
+  <data name="CookiesItem8" xml:space="preserve">
+    <value>2.8 Użytkownik może samodzielnie i w każdym czasie zmienić ustawienia dotyczące plików cookies, określając warunki ich przechowywania i uzyskiwania dostępu przez pliki Cookies do Urządzenia Użytkownika. Zmiany ustawień, o których mowa w zdaniu poprzednim, Użytkownik może dokonać za pomocą ustawień przeglądarki internetowej (np. w sekcji „Ustawienia” lub „Pomoc”). Zastrzegamy, że wyłączenie obsługi plików cookies niezbędnych dla procesów uwierzytelniania, bezpieczeństwa, utrzymania preferencji użytkownika może utrudnić, a w skrajnych przypadkach może uniemożliwić korzystanie ze stron www.</value>
+  </data>
+  <data name="FormHeader" xml:space="preserve">
+    <value>3. Informacje o formularzach</value>
+  </data>
+  <data name="FormItem1" xml:space="preserve">
+    <value>3.1 Serwis zbiera informacje podane dobrowolnie przez użytkownika w formularzach.</value>
+  </data>
+  <data name="FormItem2" xml:space="preserve">
+    <value>3.2 Dane w formularzach nie są udostępniane podmiotom trzecim.</value>
+  </data>
+  <data name="FormItem3" xml:space="preserve">
+    <value>3.3 Dane podane w formularzach są przetwarzane w celu wynikającym z funkcji konkretnego formularza, np. w celu dokonania procesu obsługi zgłoszenia serwisowego lub kontaktu handlowego.</value>
+  </data>
+  <data name="FormItem4" xml:space="preserve">
+    <value>3.4 Dane podane w formularzach mogą być przekazane podmiotom technicznie realizującym niektóre usługi, np. konta mailowe Operatora Serwisu.</value>
+  </data>
+  <data name="GeneralHeder" xml:space="preserve">
+    <value>1. Informacje ogólne</value>
+  </data>
+  <data name="GeneralItem1" xml:space="preserve">
+    <value>1.1 Operatorem Serwisu www.helobis.pl jest firma Helobis Agnieszka Jaśkiewicz z siedzibą w Warszawie 02-972, ul. Sarmacka 1B/167, NIP: PL9481999328, Regon: 147063096.</value>
+  </data>
+  <data name="GeneralItem2" xml:space="preserve">
+    <value>1.2 Serwis realizuje funkcje pozyskiwania informacji o Użytkowniku Serwisu i jego zachowaniu poprzez zapisywanie w urządzeniach końcowych pliki cookie (tzw. "ciasteczka"), poprzez dobrowolnie wprowadzone w formularzach informacje przez Użytkownika, poprzez gromadzenie logów serwera www przez Operatora tego Serwisu.</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Polityka Prywatności Serwisu www.helobis.pl</value>
+  </data>
+  <data name="PrivacyDiv" xml:space="preserve">
+    <value>Nasz Serwis używa plików cookies („ciasteczek”) i innych technologii w celach statystycznych i do zapamiętywania ustawień Serwisu. Więcej informacji można znaleźć w naszej</value>
+  </data>
+  <data name="PrivacyLink" xml:space="preserve">
+    <value>polityce prywatności</value>
+  </data>
+  <data name="ServerHeader" xml:space="preserve">
+    <value>4. Informacje o plikach log serwera</value>
+  </data>
+  <data name="ServerItem1" xml:space="preserve">
+    <value>4.1 Informacje o niektórych zachowaniach użytkowników podlegają logowaniu w warstwie serwerowej. Dane te są wykorzystywane wyłącznie w celu administrowania serwisem oraz w celu zapewnienia jak najbardziej sprawnej obsługi świadczonych usług hostingowych.</value>
+  </data>
+  <data name="ServerItem2" xml:space="preserve">
+    <value>4.2 Przeglądane zasoby identyfikowane są poprzez adresy URL. Ponadto zapisowi mogą podlegać: (a) czas nadejścia zapytania, (b) czas wysłania odpowiedzi, (c) nazwę stacji klienta – identyfikacja realizowana przez protokół HTTP, (d) informacje o błędach, jakie nastąpiły przy realizacji transakcji http, (e) adres URL strony poprzednio odwiedzanej przez użytkownika (referer link) – w przypadku, gdy przejście do Serwisu nastąpiło przez odnośnik (f) informacje o przeglądarce użytkownika, (g) Informacje o adresie IP.</value>
+  </data>
+  <data name="ServerItem3" xml:space="preserve">
+    <value>4.3 Dane powyższe nie są kojarzone z konkretnymi osobami przeglądającymi strony.</value>
+  </data>
+  <data name="ServerItem4" xml:space="preserve">
+    <value>4.4 Dane powyższe są wykorzystywane jedynie dla celów administrowania serwerem.</value>
+  </data>
+</root>

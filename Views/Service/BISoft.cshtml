@@ -1,0 +1,52 @@
+﻿@using Helobis.Hr.Web.Site.Resources
+
+@{
+    Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+
+@Html.Partial("_PartialCarousel")
+
+<section class="container service-section" id="bisoft-section">
+    <div class="inner">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>@ResHeaders.BISoftLong</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 service-content text-justify">
+                <h4>@ResHeaders.Characteristic</h4>
+                <p>@ResBISoft.CharacteristicsText1</p>
+                <p>@ResBISoft.CharacteristicsText2</p>
+                <p>@ResBISoft.CharacteristicsText3</p>
+                <p>@ResBISoft.CharacteristicsText4</p>
+                <h4>@ResHeaders.Advantages</h4>
+                <p>@ResBISoft.AdvantagesText1</p>
+                <p>@ResBISoft.AdvantagesText2</p>
+                <h4>@ResHeaders.Benefits</h4>
+                <p>@ResBISoft.BenefitsText1</p>
+            </div>
+            <div class="col-sm-6 service-content">
+                <div class="service-content-list full-width">
+                    <h4 class="text-left">@ResBISoft.Example1Header</h4>
+                    <ul class="fa-ul">
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example1Item1</h5></li>
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example1Item2</h5></li>
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example1Item3</h5></li>
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example1Item4</h5></li>
+                    </ul>
+                </div>
+                <div class="service-content-list full-width">
+                    <h4 class="text-left">@ResBISoft.Example2Header</h4>
+                    <ul class="fa-ul">
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example2Item1</h5></li>
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example2Item2</h5></li>
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example2Item3</h5></li>
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example2Item4</h5></li>
+                        <li><h5><i class="fa-li fa fa-check-square"></i>@ResBISoft.Example2Item5</h5></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

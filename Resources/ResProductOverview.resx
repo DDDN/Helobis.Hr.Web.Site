@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Mission" xml:space="preserve">
+    <value>Misja i Wizja</value>
+  </data>
+  <data name="Mission2" xml:space="preserve">
+    <value>Wartości</value>
+  </data>
+  <data name="MissionHeader1" xml:space="preserve">
+    <value>Misja</value>
+  </data>
+  <data name="MissionHeader2" xml:space="preserve">
+    <value>Wizja</value>
+  </data>
+  <data name="MissionHeader3" xml:space="preserve">
+    <value>Pasja</value>
+  </data>
+  <data name="MissionHeader4" xml:space="preserve">
+    <value>Skuteczność</value>
+  </data>
+  <data name="MissionHeader5" xml:space="preserve">
+    <value>Wiedza i doświadczenie</value>
+  </data>
+  <data name="MissionHeader6" xml:space="preserve">
+    <value>Partnerstwo i uczciwość</value>
+  </data>
+  <data name="MissionText1" xml:space="preserve">
+    <value>Generujemy realne korzyści dla naszych klientów, zapewniając im zwrot z inwestycji poprzez projektowanie i wdrażanie skutecznych rozwiązań.</value>
+  </data>
+  <data name="MissionText2" xml:space="preserve">
+    <value>Jesteśmy dostawcą realnych korzyści, zapewniamy praktyczne rozwiązania. Korzystanie z naszych usług przynosi klientom zwrot z inwestycji poprzez zwiększanie zadowolenie, kreatywność i efektywność pracowników, podnosi wydajność całej organizacji. Jesteśmy dla siebie stałymi partnerami we wspólnym rozwoju.</value>
+  </data>
+  <data name="MissionText3" xml:space="preserve">
+    <value>To, co robimy jest naszą pasją. Robimy to z zaangażowaniem i radością.</value>
+  </data>
+  <data name="MissionText4" xml:space="preserve">
+    <value>Rezultat naszej pracy przynosi firmom i klientom realne korzyści. Słowem kluczem jest dla nas zwrot z inwestycji (ROI). Osiąganie zamierzonych wyników stanowi o naszej odpowiedzialności i zaangażowaniu.</value>
+  </data>
+  <data name="MissionText5" xml:space="preserve">
+    <value>Jesteśmy profesjonalistami. Uczymy się nieustannie i wspieramy firmy oraz ludzi w ich rozwoju.
+Na potrzeby różnych projektów pracują z nami kompetentni współpracownicy.</value>
+  </data>
+  <data name="MissionText6" xml:space="preserve">
+    <value>Ludzie są dla nas kluczowi i znajdują się zawsze w centrum naszego zainteresowania. Traktujemy siebie z szacunkiem. I uczciwością.</value>
+  </data>
+  <data name="ToWho" xml:space="preserve">
+    <value>Dla kogo</value>
+  </data>
+  <data name="ToWhoText1" xml:space="preserve">
+    <value>Pracujemy z klientami biznesowymi, małymi i dużymi firmami, firmami jednoosobowymi, posiadającymi lub nie, świadomość konieczności rozwoju lub określenia potrzeb rozwojowych. Pracujemy z klientami indywidualnymi, osobami fizycznymi - absolwenci szkół wyższych i osoby pracujące zawodowo, którzy chcą rozwijać się na polu osobistym i zawodowym, często osiągnąć lepszą pozycję na rynku pracy. Ofertę kierujemy do wszystkich mających potrzebę nabycia i rozwoju wiedzy, umiejętności, zachowań, postaw. Do wszystkich poszukujących praktycznego rozwiązania problemu, chcących osiągnąć sukces w ważnych dla siebie obszarach.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Zapraszamy</value>
+  </data>
+  <data name="WelcomeText1" xml:space="preserve">
+    <value>Jeśli zarządzasz Firmą, która nie ma wewnętrznego działu HR, ale szukasz rozwiązania w tym obszarze, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText2" xml:space="preserve">
+    <value>Jeśli zarządzasz Firmą, która posiada wewnętrzny dział HR, ale chciałbyś podnieść jego standardy i zwiększyć jego efektywność i przełożenie na biznes, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText3" xml:space="preserve">
+    <value>Jeśli zarządzasz Firmą, która posiada wewnętrzny dział HR, ale chciałbyś outsource’ować jego część, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText4" xml:space="preserve">
+    <value>Jeśli jako prezes lub dyrektor, szukasz kompleksowego rozwiązania z obszaru HR lub IT dla swojej Firmy, chcesz mieć pewność zwrotu z inwestycji oraz prostej i miłej obsługi, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText5" xml:space="preserve">
+    <value>Jeśli jako menedżer wyższego lub niższego szczebla nie masz czasu albo nie chcesz uczyć swoich pracowników, a jednocześnie oczekujesz od nich lepszych rezultatów pracy i lepszego wyniku finansowego dla Firmy, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText6" xml:space="preserve">
+    <value>Jeśli jako menedżer HR, potrzebujesz wsparcia we wdrażaniu nowych rozwiązań i pomysłów, chcesz w pełni pracować jako biznes partner i konkretnie wesprzeć biznesową działalność firmy, przy zachowaniu zwrotu z inwestycji, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText7" xml:space="preserve">
+    <value>Jeśli jako menedżer HR potrzebujesz szkoleń dla swoich pracowników, bo oczekujesz od nich biznesowego podejścia i nastawienia na wsparcie wewnętrznego klienta, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText8" xml:space="preserve">
+    <value>Jeśli szukasz efektywnego szkolenia, które będzie inkubatorem pomysłów i rozwiązań, które pozwoli na rozwój konkretnych umiejętności i postaw, skutkujących konkretnymi nowymi, lepszymi działaniami w miejscu pracy, zapraszamy!</value>
+  </data>
+  <data name="WelcomeText9" xml:space="preserve">
+    <value>Jeśli znajdujesz się w sytuacji kryzysowej, nie wiesz co zrobić w obecnej sytuacji osobistej bądź zawodowej albo chcesz rozwinąć swoje umiejętności, zmienić podejście do życia i pracy, zapraszamy!</value>
+  </data>
+  <data name="WhatWeDo" xml:space="preserve">
+    <value>Co oferujemy</value>
+  </data>
+  <data name="WhatWeDoText1" xml:space="preserve">
+    <value>Oferujemy skuteczne rozwiązania doradcze, szkoleniowe, coachingowe oraz rozwiania twarde z zakresu różnorodnych rozwiązań informatycznych B2B i Business Intelligence. Oferta nasza jest owocem przeszło 15-letniego okresu zdobywania doświadczenia, wiedzy i umiejętności z zakresu zarządzania, ekonomii, psychologii, HR, oraz rozwiązań IT. Oferujemy sprawdzone rozwiązania w atrakcyjnych cenach z gwarancją zapewniającą zleceniodawcy realne korzyści osiągnięcia sukcesu w określonych ważnych dla niego obszarach i zwrot z inwestycji w dane przedsięwzięcie. Oferujemy profesjonalną współpracę, zgodną z wartościami, które wyznajemy.</value>
+  </data>
+  <data name="WhyWe" xml:space="preserve">
+    <value>Dlaczego my</value>
+  </data>
+  <data name="WhyWeText1" xml:space="preserve">
+    <value>Potrafimy osiągać sukcesy w realizacji ambitnych, realnych, konkretnych i mierzalnych celów ustalonych z klientem biznesowym lub indywidualnym. Mamy do tego wewnętrzną – niezależną od otoczenia – motywację, której sprzyjają wyznawane przez nas wartości. Wiemy, jakie są kluczowe czynniki sukcesu efektywnego działania biznesowego dzięki dotychczasowej współpracy z doświadczonymi menedżerami z najwyższych szczebli zarządzania. Umiemy wyliczać efektywność prowadzonych przez nas działań i przekładać je na mierniki finansowe zleceniodawcy. Sprawiamy, że inni osiągają sukcesy w ważnych dla nich obszarach.</value>
+  </data>
+</root>

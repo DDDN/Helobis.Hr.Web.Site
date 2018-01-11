@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Advantages1Item1" xml:space="preserve">
+    <value>Wspiera rozwój osób i organizacji</value>
+  </data>
+  <data name="Advantages1Item2" xml:space="preserve">
+    <value>Jest mało czasochłonny i prosty w obsłudze</value>
+  </data>
+  <data name="Advantages1Item3" xml:space="preserve">
+    <value>Daje wiele możliwości generowania raportów</value>
+  </data>
+  <data name="Advantages1Item4" xml:space="preserve">
+    <value>Jest wysoce profesjonalny z uwagi na zastosowaną metodologię</value>
+  </data>
+  <data name="AdvantagesText1" xml:space="preserve">
+    <value>Zapewnia szybką i wiarygodną informację o osobowościach osób badanych, które warunkują sukces zawodowy. Wiedza płynąca z kwestionariusza może mieć zastosowanie w :</value>
+  </data>
+  <data name="AdvantagesText2" xml:space="preserve">
+    <value>Pozostałe zalety kwestionariusza:</value>
+  </data>
+  <data name="BenefitsText1" xml:space="preserve">
+    <value>Pozwala decydentom na podjęcie dobrych jakościowo i szybkich decyzji biznesowych. W wielu procesach (np. w rekrutacji wewnętrznej, rozwoju talentów, awansach).</value>
+  </data>
+  <data name="CharacteristicsText1" xml:space="preserve">
+    <value>Test psychometryczny dla osób fizycznych i klienta biznesowego to kwestionariusz wspomagający diagnozę i analizę potrzeb rozwojowych klienta. W założeniu, głównie będzie stosowany w długofalowych procesach rozwoju, zawsze zakończony będzie udzieleniem uczestnikowi badania informacji zwrotnej o wyniku testu.</value>
+  </data>
+  <data name="CharacteristicsText2" xml:space="preserve">
+    <value>Biorąc pod uwagę niektóre elementy charakteryzujące rynek, kwestionariusz będzie pomocny dla tych klientów, którzy nie mają doświadczeń w organizacji działań rozwojowych dla pracowników, nie widzą potrzeb rozwojowych, bądź nie do końca potrafią określić cel rozwojowy do osiągnięcia. Dzięki nowoczesnej konstrukcji narzędzia istnieje możliwość dostosowania kwestionariusza Dimensions do modelu kompetencyjnego (zakresu wymagań kompetencyjnych dla stanowisk istniejących w firmie) Klienta. Kwestionariusz osobowości Dimensions to nowoczesne narzędzie stworzone do pomiaru tych cech osobowości, które warunkują sukces zawodowy.</value>
+  </data>
+  <data name="CharacteristicsText3" xml:space="preserve">
+    <value>Kwestionariusz Dimensions daje możliwość wygenerowania wielu raportów interpretacyjnych, niezbędnych do wsparcia wielu procesów HR w organizacji. Kwestionariusz osobowości Dimensions został stworzony zgodnie z najwyższymi standardami naukowymi. System oceny spełnia najbardziej rygorystyczne standardy psychometryczne stworzone przez prof. Rogera Holdswortha, światowy autorytet w dziedzinie psychologii biznesu.</value>
+  </data>
+  <data name="CharacteristicsText4" xml:space="preserve">
+    <value>Na bazie jednego badania można wygenerować całą gamę raportów mających zastosowanie we wszystkich procesach HR  (m.in. rekrutacja, reorganizacja, rozwój osobisty, rozwój zespołu, coaching menedżerski i outplacement).</value>
+  </data>
+  <data name="CharacteristicsText5" xml:space="preserve">
+    <value>Kwestionariusz Dimensions posiada wbudowaną funkcję Kreatora Profilu Stanowiska, która umożliwia ocenę kandydatów w oparciu o wymagania dotyczące danego stanowiska. Uzupełnienie kwestionariusza Dimensions zajmuje zwykle 25 minut, co sprawia, że jest o wiele mniej czasochłonny niż większość testów osobowości. Kwestionariusz Dimensions dostępny jest w ponad 30 językach, co umożliwia prowadzenie globalnych projektów oceny.</value>
+  </data>
+  <data name="HeaderPart1" xml:space="preserve">
+    <value>Talent Q Dimensions Elements</value>
+  </data>
+  <data name="HeaderPart2" xml:space="preserve">
+    <value>Kwestionariusz Osobowości</value>
+  </data>
+  <data name="Usage1Item1" xml:space="preserve">
+    <value>Zarządzaniu procesami biznesowymi</value>
+  </data>
+  <data name="Usage1Item2" xml:space="preserve">
+    <value>Zarządzaniu procesami HR</value>
+  </data>
+  <data name="Usage1Item3" xml:space="preserve">
+    <value>Rozwoju osobistym</value>
+  </data>
+  <data name="Usage1Item4" xml:space="preserve">
+    <value>Pracy nad sobą podczas coachingu / mentoringu</value>
+  </data>
+  <data name="Usage1Item5" xml:space="preserve">
+    <value>Przygotowaniu do objęcia nowego stanowiska w drodze rozwoju zawodowego / następstwa / sukcesji / zmiany pracy</value>
+  </data>
+</root>

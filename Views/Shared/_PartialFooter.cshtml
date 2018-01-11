@@ -1,0 +1,52 @@
+﻿@using Helobis.Hr.Web.Site.Resources
+
+<footer class="container" id="footer-section">
+    <div class="inner">
+        <div class="row">
+            <div class="col-sm-3">
+                <h4>@ResContact.ContactHeaderPoland</h4>
+                <address class="footer-address">
+                    <p>Agnieszka Jaśkiewicz</p>
+                    <p>
+                        <a href="tel:+48501017017"><i class="fa fa-tablet"></i> +48 501 017 017</a>
+                    </p>
+                    <p>
+                        <a href="mailto:@ResContact.MailAdrress"><i class="fa fa-envelope"></i> @ResContact.MailAdrress</a>
+                    </p>
+                </address>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled menu">
+                    <li><a href="@Url.Action("index", "Home")">@ResLinks.Start</a></li>
+                    <li><a href="@Url.Action("About", "Home")">@ResLinks.About</a></li>
+                    <li><a href="@Url.Action("Contact", "Home")">@ResLinks.Contact</a></li>
+                    <li><a href="@Url.Action("Privacy", "Home")">@ResLinks.PrivacyPolicy</a></li>                    
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled menu">
+                    <li><a href="@Url.Action("Tests", "Service")">@ResLinks.Tests</a></li>
+                    <li><a href="@Url.Action("Rules", "Service")">@ResLinks.Rules</a></li>
+                    <li><a href="@Url.Action("Outsourcing", "Service")">@ResLinks.Outsourcing</a></li>
+                    <li><a href="@Url.Action("Outplacement", "Service")">@ResLinks.Outplacement</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled menu">
+                    <li><a href="@Url.Action("Consulting", "Service")">@ResLinks.Consulting</a></li>
+                    <li><a href="@Url.Action("Coaching", "Service")">@ResLinks.Coaching</a></li>
+                    <li><a href="@Url.Action("Training", "Service")">@ResLinks.Training</a></li>
+                    <li><a href="@Url.Action("BISoft", "Service")">@ResLinks.BISoft</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="subfooter">
+            <div class="col-sm-12 text-center">
+                <p><small>Wszelkie prawa zastrzeżone, Copyright &copy 2014-2017 Agnieszka Jaśkiewicz</small></p>
+            </div>
+        </div>
+    </div>
+</footer>
+

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AgnesName" xml:space="preserve">
+    <value>Agnieszka Jaśkiewicz</value>
+  </data>
+  <data name="AgnesPart1" xml:space="preserve">
+    <value>Poprzez efektywną metodologię i sprawdzone narzędzia pracy, przyczynia się do rozwoju kompetencji ludzi, ułatwiając im osiąganie założonych celów. W przypadku firm, ułatwia pracownikom wdrożenia biznesowe i osiąganie założonych celów biznesowych.</value>
+  </data>
+  <data name="AgnesPart2" xml:space="preserve">
+    <value>Najważniejszy dla niej jest rezultat wspólnej pracy z klientem, czyli zwrot z inwestycji (ROI). Bo najważniejsze jest to, co zadzieje się w efekcie danego procesu rozwojowego, projektu, warsztatu i na ile rozwijane kompetencje przełożą się na działanie operacyjne i jego efekty. Podczas warsztatów uczestnicy poznają i stosują praktyczne rozwiązania, które łatwo mogą wdrożyć w codziennej pracy.</value>
+  </data>
+  <data name="AgnesPart3" xml:space="preserve">
+    <value>Ma długoletnie doświadczenia w zakresie zarządzania w kraju i za granicą. W kraju i za granicą kończyła też studia. Dwa kierunki studiów magisterskich: psychologię społeczną i filologię romańską. Studiowała również podyplomowo: organizację i zarządzanie przedsiębiorstw oraz zarządzanie zasobami ludzkimi.</value>
+  </data>
+  <data name="AgnesPart4" xml:space="preserve">
+    <value>Jej specjalizacja to zarządzanie efektywnością organizacji i efektywnością osobistą, zasobami ludzkimi, przywództwo i zarządzanie, doradztwo strategiczne.</value>
+  </data>
+  <data name="AgnesPart5" xml:space="preserve">
+    <value>Dotychczasowe doświadczenia w pracy z ludźmi, pozwalają jej powiedzieć, że przyczynia się z sukcesem do rozwoju ludzi i organizacji, inspiruje, ułatwia oraz wskazuje rozwiązania.</value>
+  </data>
+  <data name="AgnesPart6" xml:space="preserve">
+    <value>„Najbardziej biznesowy HR-owiec, jakiego spotkałem „ – zdaniem jednego z prezesów dużej firmy o ogólnopolskim zasięgu.</value>
+  </data>
+  <data name="AgnesPart7" xml:space="preserve">
+    <value>Prywatnie, szczęśliwa żona i matka. Uwielbia podróże i naukę języków obcych. Rozmowy z ludźmi, gotowanie oraz pieczenie ciast.</value>
+  </data>
+  <data name="LukaszName" xml:space="preserve">
+    <value>Łukasz Jaśkiewicz</value>
+  </data>
+  <data name="LukaszPart1" xml:space="preserve">
+    <value>Z zamiłowania i wykształcenia, pasjonat IT. Przyczynia się do rozwoju działalności firm poprzez proponowanie sprawdzonych i łatwych w obsłudze rozwiązań informatycznych. Od koncepcji poprzez programowanie i wdrożenie, zapewnia efektywne rozwiązania przyjazne użytkownikom. Z powodzeniem komunikując korzyści i funkcjonalności klientom.</value>
+  </data>
+  <data name="LukaszPart2" xml:space="preserve">
+    <value>Najważniejszy jest dla niego efekt, który wyniknie ze stosowania zaproponowanych przez niego rozwiązań. Na ile wdrożenie danego produktu przyniesie zwrot z inwestycji danej firmie.</value>
+  </data>
+  <data name="LukaszPart3" xml:space="preserve">
+    <value>Od wczesnych lat szkolnych i poprzez całe zawodowe życie mieszkał w Niemczech. Najlepsze praktyki przenosi teraz na rynek polski.</value>
+  </data>
+  <data name="LukaszPart4" xml:space="preserve">
+    <value>Prywatnie, szczęśliwy mąż i ojciec. Uwielbia podróże i literaturę fachową. Rozmowy z ludźmi, smakowanie potraw i ciast żony.</value>
+  </data>
+  <data name="Slogan1" xml:space="preserve">
+    <value>Na potrzeby różnych projektów pracują z nami kompetentni współpracownicy.</value>
+  </data>
+</root>

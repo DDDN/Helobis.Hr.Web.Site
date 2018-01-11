@@ -1,0 +1,15 @@
+﻿@using Helobis.Hr.Web.Site.Resources
+
+<div class="container" id="topmenu-section">
+    <div class="inner">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="topmenu-navigation pull-right list-inline">
+                    <li><a href="@Url.Action("Index", "Home")"><small>@ResLinks.Start.ToUpperInvariant()</small></a></li>
+                    <li><a href="@Url.Action("About", "Home")"><small>@ResLinks.About.ToUpperInvariant()</small></a></li>
+                    <li><a href="@Url.Action("Contact", "Home")"><small>@ResLinks.Contact.ToUpperInvariant()</small></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
